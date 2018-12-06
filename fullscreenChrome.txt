@@ -3,7 +3,7 @@ public class WebElements {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-fullscreen");
         System.setProperty("webdriver.chrome.driver",
-                "C:\\Users\\Jack\\Desktop\\chromedriver_win32\\chromedriver.exe");
+                "your path goes here");
         WebDriver driver = new ChromeDriver(options);
         
       return driver;     
