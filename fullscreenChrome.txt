@@ -1,0 +1,12 @@
+public class WebElements {
+    static WebDriver initWebDriver(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("start-fullscreen");
+        System.setProperty("webdriver.chrome.driver",
+                "C:\\Users\\Jack\\Desktop\\chromedriver_win32\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver(options);
+        
+      return driver;     
+    
+    
+    }//end WebDriver
